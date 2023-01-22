@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 100px;
+}
+
+.similar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movieName{
+    font-size: 50px;
+}
+
+.items{
+    font-size: 20px;
+}
