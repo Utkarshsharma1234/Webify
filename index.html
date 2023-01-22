@@ -5,6 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #heading{
+            font-size: 150%;
+        }
+        img{
+            margin-left: 8px;
+            
+            padding: 0.2%;
+            border-radius: 3%;
+        }
+        .genre{
+            margin-left: 30%;
+            font-size: 160%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:gold;
+        }
+        #genrelist{
+            width: 80%;
+            background-color: rgb(39, 35, 35);
+            margin-left: 8%;
+            border-radius: 2%;
+            margin-top: -5px;
+        }
+        #title{
+            color: gold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #intro{
+            color: yellow;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img:hover{
+            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .genre:hover{
+            color: gold;
+        }
+        #dis1{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        #dis2{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        #dis3{
+            display: flex;
+            margin: auto;
+            justify-content: center;        
+        }
+        #foot{
+            background-color: rgb(17, 17, 17);
+        }
+        #links{
+            display: flex;
+        }
+    </style>
 </head>
 <!-- This is just a basic code,
     You are allowed to -
@@ -15,50 +79,70 @@
 
 -->
 <body>
-    <center>
-        <h1>Binge watch</h1>
-        <p>INTRODUCTION------------------</p>
+    <div id="mainthing">
+    <center id="heading">
+        <h1 id="title">Binge watch</h1>
+        <p id="intro">INTRODUCTION------------------</p>
     </center>
-
+        <div id="genrelist">
+            <br>
+        <div id="dis1">
+        <div>
             <a href="Horror\horror.html" target="_blank">
                 <img width="250px" height="250px" class="card-img-top" src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000" alt="">
             </a>
-            <p >Horror</p>
+            <p class="genre">Horror</p>
         </div>
 
         <div>
             <a href="Romantic-comedy/romcom1.html" target="_blank">
                 <img width="250px" height="250px" class="card-img-top" src="https://media.istockphoto.com/id/875970634/vector/romantic-film-glyphs-vector-icon.jpg?s=612x612&w=0&k=20&c=s5BrM29Vxgtc9FI3yxT56XCSsSzYq1U18uxTjnkZnc0=" alt="">
             </a>
-            <p >Romantic-Comedy</p>
+            <p class="genre">Romantic-Comedy</p>
         </div>
-
+        </div>
+        <div id="dis2">
         <div>
             <a href="Thrilling-Mysteries/design.html" target="_blank">
                 <img width="250px" height="250px" class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgN3BwZUKUNBKKDbIeSwvZr5aFHNetxLhLMHdpG5qqlnZ24xtGk2C9YLpWXXZHaZT-D9M&usqp=CAU" alt="">
             </a>
-            <p >Mystery</p>
+            <p class="genre">Mystery</p>
         </div>
 
         <div>
             <a href="Animation/animated.html" target="_blank">
                 <img width="250px" height="250px" class="card-img-top" src="https://cloudfront-us-east-1.images.arcpublishing.com/culturacolectiva/5G6WCFYU7NACZBZ3AHZ7ICQQFU.jpg" alt="">
             </a>
-            <p >Anime</p>
+            <p class="genre">Anime</p>
         </div>
-
-        <div>
-            <a href="Action/action_movies.html" target="_blank">
-                <img width="250px" height="250px" class="card-img-top" src="https://cdn.thecoolist.com/wp-content/uploads/2016/08/Blackhawk-Down-best-action-movie-960x540.jpg" alt="">
-            </a>
-            <p >Action</p>
         </div>
-    </div>  
-
-    <footer>
+        <div id="dis3">
+            <div >
+                <a href="Action/action_movies.html" target="_blank">
+                    <img width="250px" height="250px" class="card-img-top" src="https://cdn.thecoolist.com/wp-content/uploads/2016/08/Blackhawk-Down-best-action-movie-960x540.jpg" alt="">
+                </a>
+                <p class="genre">Action</p>
+                <br>
+    
+            </div>
+        </div>
+        
+        </div>     
+    </div>
+    <br>
+    <br>
+    <footer id="foot">
+        <br>
+        <br>
+        <div id="links">
         <a target="_blank" href="About.html">About you</a>
         <a target="_blank" href="https://www.facebook.com/petrichor.iitpkd">Link to facebook page of petrichor</a>
         <a target="_blank" href="https://instagram.com/petrichor.iitpkd?igshid=MDM4ZDc5MmU=">Link to instagram page of petrichor</a>
+        </div>
+        <br>
+        <br>
+        <br>
     </footer>
+
 </body>
 </html>
