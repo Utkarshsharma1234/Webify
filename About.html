@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About you</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .heading {
+      font-size: 60px;
+      font-family: poppins;
+      color: white;
+    }
+
+    .allmovies {
+      display: flex;
+      flex-direction: column;
+      font-family: poppins;
+      margin-left: 30px;
+    }
+
+    .horizontal {
+      display: flex;
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-bottom: 50px;
+      align-items: center;
+    }
+
+    .links {
+      text-decoration: none;
+      color: yellow;
+      font-weight: 900;
+    }
+
+    .content {
+      color: white;
+    }
+
+    .subheading {
+      font-size: 25px;
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    .line {
+      height: 1px;
+      width: auto;
+      background-color: white;
+    }
+
+    .maindiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  </style>
 </head>
+
 <body>
-  <p> An introduction of the designers. </p>
+  <center>
+    <h1 class="heading">An Introduction to Designers</h1>
+  </center>
+  <div class="maindiv">
+
+    <div class="horizontal">
+      <div>
+        <img src="/images/Rohit.jpeg" alt="">
+      </div>
+      <div class="allmovies">
+        <a href="thing.html" class="links">
+          <h3 class="subheading">Rohit Chakraborty</h3>
+        </a>
+        <p class="content">IITian (Hurrey!!!) Struggling to keep my life together</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="horizontal">
+      <img src="/images/utkarsh.jpeg" alt="">
+      <div class="allmovies">
+        <a href="thing.html" class="links">
+          <h3 class="subheading">Utkarsh Sharma</h3>
+        </a>
+        <p class="content">IITian, Pushing myself to be the BEST</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="horizontal">
+      <img src="/images/harsh.jpeg" alt="">
+      <div class="allmovies">
+        <a href="shining.html" class="links">
+          <h3 class="subheading">Harshvardhan Sharma</h3>
+
+        </a>
+        <p class="content">Practice makes a man perfect but I am already perfect!!</p>
+      </div>
+    </div>
+    </div>
 </body>
+
 </html>
