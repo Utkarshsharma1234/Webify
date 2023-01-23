@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -36,3 +38,4 @@ body{
 .items{
     font-size: 20px;
 }
+
