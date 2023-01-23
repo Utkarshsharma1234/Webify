@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    font-family: poppins;
+    text-transform: uppercase;
 }
 #heading{
     font-size: 150%;
@@ -58,6 +60,8 @@ img:hover{
 }
 #foot{
     background-color: rgb(17, 17, 17);
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 50px;
 }
 #links{
@@ -65,7 +69,7 @@ img:hover{
 }
 
 .about{
-    font-size: 50px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
     font-family: sans-serif;
@@ -77,14 +81,16 @@ img:hover{
 }
 
 .facebook{
-    width: 150px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
     color: white;
 }
 
 .instagram{
-    width: 150px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
     color: white;
 }
 
@@ -95,4 +101,12 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.leg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
